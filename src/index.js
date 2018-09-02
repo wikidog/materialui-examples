@@ -4,6 +4,6 @@ import ReactDOM from 'react-dom';
 import 'typeface-roboto';
 
 // import App from './components/App';
-import Dashboard from './components/Dashboard';
+import PageLayoutExamples from './PageLayoutExamples';
 
-ReactDOM.render(<Dashboard />, document.getElementById('root'));
+ReactDOM.render(<PageLayoutExamples />, document.getElementById('root'));
