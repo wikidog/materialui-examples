@@ -102,7 +102,7 @@ function PageLayoutExamples(props) {
               className={classes.cardMedia}
               image={theme.src}
               title={theme.name}
-              target="_blank"
+              // target="_blank"
             />
             <CardContent className={classes.cardContent}>
               <Typography
@@ -120,7 +120,7 @@ function PageLayoutExamples(props) {
                 component={theme.link}
                 size="small"
                 color="primary"
-                target="_blank"
+                // target="_blank"
               >
                 Go to - {theme.name}
               </Button>
